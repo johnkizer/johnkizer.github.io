@@ -15,7 +15,7 @@ header, footer {
 /* Changed header color and default font, set height to full screen height, set display to flex in order to easily center contents. (We could also use grid, but I went with flex since we only have a single column.)  Also set the font-family to Work Sans. Remember, the cascade in "Cascading Style Sheets" means that these font settings will flow down into everything inside the wrapper unless we override it--which we do with h1 */
 header {
   font-family: Roboto;
-  color: #023047;
+  color: #000814;
   min-height: 100vh;
   display: flex;
 }
@@ -47,7 +47,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #000814;
   padding: 10px 0px 10px 10px;
 }
 
@@ -64,7 +64,7 @@ img {
 }
 
 .bio {
-  color: #219ebc;
+  color: #000814;
   font-size: 24px;
   font-family: 'Work Sans';
 }
@@ -153,5 +153,11 @@ img {
 }
 
 footer {
-  margin-top: 44px;
+  height: 100%
+  font-family: "Roboto"
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.5)
 }
